@@ -3,7 +3,7 @@
 
 
 def is_even_len(string: str) -> bool:
-    if((len(str) % 2) == 0):
+    if((len(string) % 2) == 0):
         result = true
     else :
         result = false
@@ -11,7 +11,7 @@ def is_even_len(string: str) -> bool:
 
 
 def remove_third_char(string: str) -> str:
-    chaine = str[:2]+str[3:]
+    chaine = string[:2]+string[3:]
     return chaine
 
 
